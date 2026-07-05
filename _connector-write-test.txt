@@ -1,1 +1,0 @@
-write capability re-test - safe to delete

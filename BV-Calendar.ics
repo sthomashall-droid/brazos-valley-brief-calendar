@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Brazos Valley Brief//Public Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Brazos Valley Government Calendar
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:bvbrief-20260615-bryanisd@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260615T180000
+DTEND;TZID=America/Chicago:20260615T193000
+SUMMARY:Bryan ISD budget & proposed tax-rate public meeting (HELD)
+LOCATION:BISD Administration Building, 801 S. Ennis St., Bryan
+DESCRIPTION:HELD 6/15: board unanimously adopted a balanced FY2026-27 budget with no tax-rate change and no use of reserves; also named 3 principals. Tracker BV-0049/0050.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260616-csisd-ws@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260616T170000
+DTEND;TZID=America/Chicago:20260616T190000
+SUMMARY:College Station ISD Board workshop
+LOCATION:CSISD Boardroom, 1812 Welsh Ave., College Station
+DESCRIPTION:Board workshop. Confidence: Official.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260616-csisd-reg@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260616T190000
+DTEND;TZID=America/Chicago:20260616T210000
+SUMMARY:College Station ISD Board regular meeting (HELD)
+LOCATION:CSISD Boardroom, 1812 Welsh Ave., College Station
+DESCRIPTION:HELD 6/16: executive session on the Intruder Detection Audit & Corrective Action Plan (Govt Code 551.076); no open-session action. Tracker BV-0051.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260616-wellborn@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260616T180000
+DTEND;TZID=America/Chicago:20260616T193000
+SUMMARY:Wellborn SUD board meeting (HELD; impact fees still pending)
+LOCATION:4118 Greens Prairie Rd, Wellborn
+DESCRIPTION:HELD 6/16: no impact-fee outcome posted as of 6/21; item carried forward for a mid-summer decision. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260616-blinn@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260616T100000
+DTEND;TZID=America/Chicago:20260616T120000
+SUMMARY:Blinn College Trustees meeting (HELD)
+LOCATION:Blinn Brenham Campus
+DESCRIPTION:HELD 6/16: enrollment report (Bryan campus 3,764, down from 12,000+ a decade ago; dual-credit +22%); trustee requested a Bryan-campus workshop. FY27 budget adoption not separately confirmed. Tracker BV-0052.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260618-mpo@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260618T090000
+DTEND;TZID=America/Chicago:20260618T120000
+SUMMARY:BCS MPO joint TAC + ATAP Complete Streets workshop (HELD)
+LOCATION:Brazos Transit District Coordination Complex Boardroom
+DESCRIPTION:HELD 6/18: Complete Streets Plan workshop (no action). Confidence: Official.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260625-csccouncil@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:College Station City Council regular meeting (HELD)
+DESCRIPTION:HELD 6/25: consent agenda approved unanimously (Axon $401K body-camera change order; Barron/Decatur signal $372,872; polymer $315K); 2.5-hr Northgate workshop, no vote; CIP update (69 projects, $474.6M). Tracker BV-0061..BV-0065. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260623-brazoscc@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260623T100000
+DTEND;TZID=America/Chicago:20260623T120000
+SUMMARY:Brazos County Commissioners Court (HELD)
+LOCATION:Brazos County Administration Building, 200 S. Texas Ave., Bryan
+DESCRIPTION:HELD 6/23: adopted a countywide AI policy (human oversight); acted on a compensation study (up to 10% for ~17% below-market staff); Public Defender quarterly report (612 clients, 4 of 10 attorney vacancies); screwworm public-awareness response. Tracker BV-0066..BV-0069. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260625-canyonvillage@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260625T140000
+DTEND;TZID=America/Chicago:20260625T150000
+SUMMARY:Canyon Village Apartments temporary-injunction hearing
+LOCATION:472nd District Court, Brazos County
+DESCRIPTION:Hearing on whether the city can resume enforcing its vacate order. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260709-bvgcd@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;TZID=America/Chicago:20260709T140000
+DTEND;TZID=America/Chicago:20260709T160000
+SUMMARY:Brazos Valley Groundwater Conservation District - Public Rules Hearing + board meeting
+LOCATION:112 W. 3rd St., Hearne
+DESCRIPTION:Rules hearing tied to the permit moratorium. Confidence: Official.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260817-bryanisd-vatre@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Bryan ISD deadline to decide on November VATRE
+DESCRIPTION:Board must decide whether to call a November rate election. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260830-bvgcd-dfc@brazosvalley
+DTSTAMP:20260615T120000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:Brazos Valley GCD - Desired Future Conditions comment period closes (approx.)
+DESCRIPTION:End of the 90-day DFC comment window opened June 1. Date approximate. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260729-btd@brazosvalley
+DTSTAMP:20260621T220000Z
+DTSTART;TZID=America/Chicago:20260729T103000
+DTEND;TZID=America/Chicago:20260729T120000
+SUMMARY:Brazos Transit District quarterly board meeting
+LOCATION:Brazos Transit District, Bryan
+DESCRIPTION:Quarterly board meeting. Confidence: Official.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260902-tamus-regents@brazosvalley
+DTSTAMP:20260621T220000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Texas A&M System Board of Regents regular meeting
+LOCATION:College Station
+DESCRIPTION:Regular meeting; watch for RELLIS energy and capital items. Confidence: Official.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260626-bryancouncil-special@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Bryan City Council special meeting (HELD)
+LOCATION:City of Bryan
+DESCRIPTION:HELD 6/26: approved a replacement RELLIS data-center tax abatement (~$298M / 5 jobs; 10-yr min PILOT ~$14.9M); unanimous among 4 of 7 present; new owner has a September construction deadline. Tracker BV-0059. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260706-cscouncil-budget@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+SUMMARY:College Station City Council special budget meeting
+DESCRIPTION:Special budget meeting (Monday). Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260707-brazoscc@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;TZID=America/Chicago:20260707T100000
+DTEND;TZID=America/Chicago:20260707T120000
+SUMMARY:Brazos County Commissioners Court (regular meeting)
+LOCATION:Brazos County Administration Building, 200 S. Texas Ave., Bryan
+DESCRIPTION:Next regular meeting. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260709-cscouncil@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:College Station City Council regular meeting
+DESCRIPTION:Next regular meeting after the June 25 session. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260912-rellis-construction@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:RELLIS data-center construction deadline (September)
+DESCRIPTION:Per the 6/26 replacement abatement, the new owner must begin construction by September. Exact day within the month not specified. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20261012-bryanfire-4896@brazosvalley
+DTSTAMP:20260628T220000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Bryan Fire Department 48/96 schedule pilot begins
+DESCRIPTION:City of Bryan FD pilots a 48/96 shift schedule beginning Oct. 12 (administrative pilot). Tracker BV-0071. Confidence: Reported.
+END:VEVENT
+END:VCALENDAR

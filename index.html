@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brazos Valley Brief — Government Meetings Calendar</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #FDFBF7;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  h1 { color: #0B291B; font-size: 1.6rem; margin: 0 0 .35rem; }
+  .tag { color: #3d4a42; font-size: 1rem; margin: 0 0 1.75rem; }
+  h2 { color: #0B291B; font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  p { margin: .5rem 0; }
+  .btns { display: flex; flex-direction: column; gap: .6rem; margin: 1rem 0 .5rem; }
+  a.btn {
+    display: block; text-decoration: none; text-align: center;
+    padding: .8rem 1rem; border-radius: 8px; font-weight: bold;
+    background: #0B291B; color: #FDFBF7; font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-size: .95rem;
+  }
+  a.btn.alt { background: #fff; color: #0B291B; border: 1.5px solid #0B291B; }
+  .note { font-size: .85rem; color: #55605a; margin-top: 1.5rem; }
+  code { background: #efece4; padding: .1rem .35rem; border-radius: 4px; font-size: .85rem; word-break: break-all; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Brazos Valley Brief — Meetings Calendar</h1>
+  <p class="tag">Upcoming public meetings for Bryan, College Station, and Brazos County. Subscribe once and the calendar keeps itself current.</p>
+
+  <h2>Subscribe</h2>
+  <div class="btns" id="btns">
+    <a class="btn" id="apple" href="#">Apple Calendar / iPhone</a>
+    <a class="btn" id="google" href="#" target="_blank" rel="noopener">Google Calendar</a>
+    <a class="btn" id="outlook" href="#" target="_blank" rel="noopener">Outlook</a>
+    <a class="btn alt" id="download" href="BV-Calendar.ics">Download the .ics file</a>
+  </div>
+
+  <p class="note">A subscribed calendar refreshes on your app's own schedule, often every few hours to once a day, so newly added meetings may take a little while to appear. This is a convenience calendar, not a real-time alert.</p>
+  <p class="note">Feed URL: <code id="feedurl"></code></p>
+</div>
+
+<script>
+  // Build every subscribe link from this page's own address, so it works
+  // regardless of the GitHub username or repo name it ends up hosted at.
+  var base = window.location.href.replace(/index\.html$/, '').replace(/\/$/, '');
+  var httpsUrl = base + '/BV-Calendar.ics';
+  var webcalUrl = httpsUrl.replace(/^https?:/, 'webcal:');
+  document.getElementById('apple').href = webcalUrl;
+  document.getElementById('google').href =
+    'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcalUrl);
+  document.getElementById('outlook').href =
+    'https://outlook.office.com/calendar/0/addfromweb?url=' + encodeURIComponent(webcalUrl);
+  document.getElementById('feedurl').textContent = httpsUrl;
+</script>
+</body>
+</html>

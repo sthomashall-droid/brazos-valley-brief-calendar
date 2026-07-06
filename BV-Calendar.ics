@@ -195,4 +195,56 @@ DTEND;VALUE=DATE:20261013
 SUMMARY:Bryan Fire Department 48/96 schedule pilot begins
 DESCRIPTION:City of Bryan FD pilots a 48/96 shift schedule beginning Oct. 12 (administrative pilot). Tracker BV-0071. Confidence: Reported.
 END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260630-bvgcd-aquifers101@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;TZID=America/Chicago:20260630T180000
+DTEND;TZID=America/Chicago:20260630T200000
+SUMMARY:BVGCD "Aquifers 101" public meeting (HELD)
+LOCATION:Brazos Center, Bryan
+DESCRIPTION:HELD 6/30: 80+ attendees; GM Alan Day said the region will not run out of water; district manages 8 aquifers, monitors 224 wells; questions on data-center/SpaceX Terafab water use. Informational, no vote. Tracker BV-0073. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260702-cspz@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;TZID=America/Chicago:20260702T180000
+DTEND;TZID=America/Chicago:20260702T210000
+SUMMARY:College Station Planning & Zoning Commission (HELD)
+LOCATION:1101 Texas Avenue, College Station
+DESCRIPTION:HELD 7/2: recommended a Comprehensive Plan amendment and rezoning for 12.43 ac at 2950 Rock Prairie Road West (final Council action Aug. 13); approved a preliminary plan and waivers for Krenek Tap Townhomes. Tracker BV-0075..BV-0077. Confidence: Official (agenda); outcomes pending minutes.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260702-bryanpz@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;TZID=America/Chicago:20260702T180000
+DTEND;TZID=America/Chicago:20260702T210000
+SUMMARY:Bryan Planning and Zoning Commission (HELD)
+LOCATION:300 S. Texas Ave., Bryan
+DESCRIPTION:HELD 7/2: considered rezonings RZ26-12 (Viva Rd) and RZ26-13 (405 Dunn St), and driveway variances PV26-16 (104 N. Randolph Ave) and PV26-17 (3909 Aspen St). Tracker BV-0078..BV-0081. Confidence: Official (agenda); outcomes pending minutes.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260715-wellbornsud@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;TZID=America/Chicago:20260715T180000
+DTEND;TZID=America/Chicago:20260715T193000
+SUMMARY:Wellborn SUD board meeting
+LOCATION:4118 Greens Prairie Rd, Wellborn
+DESCRIPTION:Water impact-fee decision remains pending; carried forward with no posted outcome. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260717-schulmanloan@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Schulman's Movie Bowl Grille $2M loan due to City of Bryan
+DESCRIPTION:2024 Chapter 380 promissory note comes due; city documents describe the project as already in default on lease requirements. Tracker BV-0074. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260813-cscouncil-rockprairie@brazosvalley
+DTSTAMP:20260705T220000Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:College Station City Council - final action, Rock Prairie Rd West comp plan/rezoning
+DESCRIPTION:Final Council vote on the CPA2026-000004 comp-plan amendment and REZ2026-000009 rezoning at 2950 Rock Prairie Road West, per the P&Z Commission's July 2 recommendation; date subject to change per the agenda. Tracker BV-0075/BV-0076. Confidence: Reported.
+END:VEVENT
 END:VCALENDAR

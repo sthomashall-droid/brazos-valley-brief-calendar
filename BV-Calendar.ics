@@ -164,20 +164,20 @@ DESCRIPTION:Special budget meeting (Monday). Confidence: Reported.
 END:VEVENT
 BEGIN:VEVENT
 UID:bvbrief-20260707-brazoscc@brazosvalley
-DTSTAMP:20260628T220000Z
+DTSTAMP:20260712T220000Z
 DTSTART;TZID=America/Chicago:20260707T100000
 DTEND;TZID=America/Chicago:20260707T120000
-SUMMARY:Brazos County Commissioners Court (regular meeting)
+SUMMARY:Brazos County Commissioners Court regular meeting (HELD)
 LOCATION:Brazos County Administration Building, 200 S. Texas Ave., Bryan
-DESCRIPTION:Next regular meeting. Confidence: Reported.
+DESCRIPTION:HELD 7/7: posted agenda included a $1M GME wire transfer, Public Defender Oversight Board nominations, a Whitley Penn audit engagement, an Old Reliance Rd Phase II change order ($239,747.41), FY27 vehicle purchases, interim comp-guideline additions, MUD No. 7 (Live Oaks Ranch) development agreement, and a $1,825,000 real-property purchase; outcomes pending minutes. Tracker BV-0091. Confidence: Official (agenda).
 END:VEVENT
 BEGIN:VEVENT
 UID:bvbrief-20260709-cscouncil@brazosvalley
-DTSTAMP:20260628T220000Z
+DTSTAMP:20260712T220000Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-SUMMARY:College Station City Council regular meeting
-DESCRIPTION:Next regular meeting after the June 25 session. Confidence: Reported.
+SUMMARY:College Station City Council regular meeting (HELD)
+DESCRIPTION:HELD 7/9: consent agenda approved unanimously (~$1.22M, 6 items); after public hearings, unanimously changed land use (7.2 ac) and zoning (8 ac) on Harvey Mitchell Pkwy S to enable multi-family housing; approved 4-3 a Wolf Pen Creek UDO vehicle-sales amendment (Smith, Wright, Shafer opposed). Tracker BV-0083..BV-0085. Confidence: Official (city record).
 END:VEVENT
 BEGIN:VEVENT
 UID:bvbrief-20260912-rellis-construction@brazosvalley
@@ -246,5 +246,54 @@ DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:College Station City Council - final action, Rock Prairie Rd West comp plan/rezoning
 DESCRIPTION:Final Council vote on the CPA2026-000004 comp-plan amendment and REZ2026-000009 rezoning at 2950 Rock Prairie Road West, per the P&Z Commission's July 2 recommendation; date subject to change per the agenda. Tracker BV-0075/BV-0076. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260713-cscouncil-budgetws@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260716
+SUMMARY:College Station City Council FY2027 budget workshops
+DESCRIPTION:In-depth workshops on the proposed FY2027 budget, July 13-15 (Mon-Wed). Confidence: Official (city record).
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260714-brazoscc-special@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;TZID=America/Chicago:20260714T100000
+DTEND;TZID=America/Chicago:20260714T110000
+SUMMARY:Brazos County Commissioners Court - Special Called Session (payment of claims)
+LOCATION:Brazos County Administration Building, 200 S. Texas Ave., Bryan
+DESCRIPTION:Special Called Session, payment of claims. Confidence: Official (posted agenda).
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260714-btu-bryancouncil@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:BTU revised solar-billing proposal due to Bryan City Council
+DESCRIPTION:Deadline for Bryan Texas Utilities to bring the Bryan City Council one revised solar-billing proposal after the June 26 council directive. Tracker BV-0088. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260723-cscouncil@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:College Station City Council regular meeting
+DESCRIPTION:Next regular meeting after July 9. Confidence: Official (city record).
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260819-me-tours@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:Brazos County medical examiner's office - public tours
+DESCRIPTION:Public tours of the county's new medical examiner's office, off E. 29th St., Bryan. Tracker BV-0090. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260901-me-opening@brazosvalley
+DTSTAMP:20260712T220000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Brazos County medical examiner's office expected to begin autopsies
+DESCRIPTION:County's first ME office expected to begin autopsies; Dr. Jennifer Dierksen takes the ME title Oct. 1. Tracker BV-0090. Confidence: Reported.
 END:VEVENT
 END:VCALENDAR

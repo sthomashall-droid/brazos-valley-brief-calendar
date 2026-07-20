@@ -244,7 +244,7 @@ UID:bvbrief-20260813-cscouncil-rockprairie@brazosvalley
 DTSTAMP:20260705T220000Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-SUMMARY:College Station City Council - final action, Rock Prairie Rd West comp plan/rezoning
+SUMMARY:College Station City Council - Rock Prairie Rd West final action + NNR/voter-approval tax rates submitted (date subject to change)
 DESCRIPTION:Final Council vote on the CPA2026-000004 comp-plan amendment and REZ2026-000009 rezoning at 2950 Rock Prairie Road West, per the P&Z Commission's July 2 recommendation; date subject to change per the agenda. Tracker BV-0075/BV-0076. Confidence: Reported.
 END:VEVENT
 BEGIN:VEVENT
@@ -252,7 +252,7 @@ UID:bvbrief-20260713-cscouncil-budgetws@brazosvalley
 DTSTAMP:20260712T220000Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260716
-SUMMARY:College Station City Council FY2027 budget workshops
+SUMMARY:College Station City Council FY2027 budget workshops (HELD July 13-14)
 DESCRIPTION:In-depth workshops on the proposed FY2027 budget, July 13-15 (Mon-Wed). Confidence: Official (city record).
 END:VEVENT
 BEGIN:VEVENT
@@ -269,15 +269,15 @@ UID:bvbrief-20260714-btu-bryancouncil@brazosvalley
 DTSTAMP:20260712T220000Z
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
-SUMMARY:BTU revised solar-billing proposal due to Bryan City Council
+SUMMARY:BTU revised solar-billing proposal due to Bryan City Council (HELD - revised ordinance adopted July 14)
 DESCRIPTION:Deadline for Bryan Texas Utilities to bring the Bryan City Council one revised solar-billing proposal after the June 26 council directive. Tracker BV-0088. Confidence: Reported.
 END:VEVENT
 BEGIN:VEVENT
 UID:bvbrief-20260723-cscouncil@brazosvalley
 DTSTAMP:20260712T220000Z
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SUMMARY:College Station City Council regular meeting
+DTSTART;TZID=America/Chicago:20260723T180000
+DTEND;TZID=America/Chicago:20260723T210000
+SUMMARY:College Station City Council regular meeting + FY2027 budget public hearing
 DESCRIPTION:Next regular meeting after July 9. Confidence: Official (city record).
 END:VEVENT
 BEGIN:VEVENT
@@ -295,5 +295,124 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Brazos County medical examiner's office expected to begin autopsies
 DESCRIPTION:County's first ME office expected to begin autopsies; Dr. Jennifer Dierksen takes the ME title Oct. 1. Tracker BV-0090. Confidence: Reported.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260721-brazoscc@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:Brazos County Commissioners Court regular meeting
+LOCATION:Bryan\, TX
+DESCRIPTION:Per the county's adopted twice-monthly schedule (first and third Tuesdays). Agenda posts on the PrimeGov portal.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260804-brazoscc@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;VALUE=DATE:20260804
+SUMMARY:Brazos County Commissioners Court regular meeting
+LOCATION:Bryan\, TX
+DESCRIPTION:Per the county's adopted twice-monthly schedule. Agenda posts on the PrimeGov portal.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260818-brazoscc-abatement@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260818T100000
+SUMMARY:Brazos County Commissioners Court - RELLIS tax-abatement assignment consideration
+LOCATION:Commissioners Courtroom\, 200 S. Texas Ave. Suite 106\, Bryan
+DESCRIPTION:Consideration of an amendment assigning the RELLIS Campus Data and Research Center tax abatement agreement (April 29\, 2025) to ThisWay\, Global\, Inc. Noticed under Tax Code Sec. 312.207 on July 17\, 2026. Venue per the notice; the county has announced meeting-location changes during building renovation\, so confirm the venue on the posted agenda.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260805-harvey-ws1@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260805T180000
+DTEND;TZID=America/Chicago:20260805T200000
+SUMMARY:Harvey Road District visioning workshop (general public)
+LOCATION:Meyer Senior & Community Center\, 2275 Dartmouth St.\, College Station
+DESCRIPTION:City of College Station community workshop on the Harvey Road District plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260810-harvey-ws2@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260810T140000
+DTEND;TZID=America/Chicago:20260810T160000
+SUMMARY:Harvey Road District visioning workshop (business & property owners)
+LOCATION:Meyer Senior & Community Center\, 2275 Dartmouth St.\, College Station
+DESCRIPTION:City of College Station community workshop on the Harvey Road District plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260812-harvey-ws3@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260812T180000
+DTEND;TZID=America/Chicago:20260812T200000
+SUMMARY:Harvey Road District visioning workshop (business & property owners)
+LOCATION:Meyer Senior & Community Center\, 2275 Dartmouth St.\, College Station
+DESCRIPTION:City of College Station community workshop on the Harvey Road District plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260813-harvey-ws4@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260813T140000
+DTEND;TZID=America/Chicago:20260813T160000
+SUMMARY:Harvey Road District visioning workshop (general public)
+LOCATION:Meyer Senior & Community Center\, 2275 Dartmouth St.\, College Station
+DESCRIPTION:City of College Station community workshop on the Harvey Road District plan.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260806-bryanpz@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260806T180000
+DTEND;TZID=America/Chicago:20260806T210000
+SUMMARY:Bryan Planning & Zoning Commission
+LOCATION:Bryan\, TX
+DESCRIPTION:Per the City of Bryan public-meetings schedule.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260811-bryancouncil@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260811T140000
+DTEND;TZID=America/Chicago:20260811T190000
+SUMMARY:Bryan City Council regular meeting
+LOCATION:Bryan\, TX
+DESCRIPTION:Per the City of Bryan public-meetings schedule (2:00-7:00 p.m.).
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260824-bryanbsc@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260824T173000
+DTEND;TZID=America/Chicago:20260824T183000
+SUMMARY:Bryan Building & Standards Commission
+LOCATION:Bryan\, TX
+DESCRIPTION:Per the City of Bryan public-meetings schedule.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260813-bvgcd-board@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260813T140000
+SUMMARY:Brazos Valley Groundwater Conservation District regular board meeting
+LOCATION:District Office\, 112 W. 3rd St.\, Hearne
+DESCRIPTION:Per the district's posted meeting listing. Likely venue for action following the July 15 public rules hearing.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260818-blinn@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;TZID=America/Chicago:20260818T100000
+SUMMARY:Blinn College Board of Trustees regular meeting
+LOCATION:Administration Building\, Third Floor Board Room\, Brenham campus
+DESCRIPTION:Per the board's posted meeting dates.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260827-cscouncil-adoption@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:College Station City Council - tax-rate hearing + FY2027 budget and tax-rate adoption
+LOCATION:College Station City Hall
+DESCRIPTION:Public hearing on the tax rate\, then scheduled adoption of the FY2027 budget and tax rate\, per the city's posted budget timeline.
+END:VEVENT
+BEGIN:VEVENT
+UID:bvbrief-20260821-btu-signby@brazosvalley
+DTSTAMP:20260719T230000Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Deadline: BTU solar customers sign new interconnection agreements
+LOCATION:Bryan\, TX
+DESCRIPTION:Existing BTU solar customers must sign the new Distributed Generation Interconnection Agreement to keep selling excess power to the grid\, per KBTX reporting.
 END:VEVENT
 END:VCALENDAR
